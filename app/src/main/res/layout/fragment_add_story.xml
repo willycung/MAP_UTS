@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Center content both vertically and horizontally -->
+
+    <!-- EditText untuk menulis cerita -->
+    <EditText
+        android:id="@+id/story_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apa cerita anda hari ini..."
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" /> <!-- Margin for spacing -->
+
+    <!-- Tombol Pilih Gambar -->
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Gambar"
+        android:layout_marginBottom="16dp" /> <!-- Margin for spacing -->
+
+    <!-- Pratinjau Gambar yang Dipilih -->
+    <ImageView
+        android:id="@+id/selected_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:contentDescription="Selected Image"
+        android:layout_marginBottom="16dp" /> <!-- Margin for spacing -->
+
+    <!-- Tombol Upload -->
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299163956186",
+    "project_id": "willy-uts",
+    "storage_bucket": "willy-uts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299163956186:android:a299c17b875812e0f686e3",
+        "android_client_info": {
+          "package_name": "com.example.if570_lab_uts_willy_00000079845"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPSoISWX3glOJjqn0l_LVXpyLUWdApig0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
